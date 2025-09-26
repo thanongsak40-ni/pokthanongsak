@@ -1,0 +1,27 @@
+{
+  "name": "pokthanongsak-unicode-cleaner",
+  "version": "1.0.0",
+  "description": "Utility scripts to detect and clean invisible Unicode characters from Google Apps Script files",
+  "main": "detect-unicode.js",
+  "scripts": {
+    "detect": "node detect-unicode.js",
+    "clean": "node clean-unicode.js",
+    "test": "node test-unicode-utils.js"
+  },
+  "bin": {
+    "detect-unicode": "./detect-unicode.js",
+    "clean-unicode": "./clean-unicode.js"
+  },
+  "keywords": [
+    "unicode",
+    "cleanup",
+    "google-apps-script",
+    "invisible-characters",
+    "utility"
+  ],
+  "author": "GitHub Copilot Agent",
+  "license": "MIT",
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
